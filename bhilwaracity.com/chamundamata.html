@@ -1,0 +1,73 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Chamunda Mata Mandir</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body bgcolor='#E5E5E5' >
+<div class="head" >
+<ul ><a href="hom.html"><h3 style="float:left; position:absolute; top:0%;padding:0px;margin:11px;">BhilwaraCity.com</h3></a>
+<li><a href="photo.html">Photo Gallery</a></li>
+<li><a href="directory.html">City Directory</a></li>
+<li><a  class="active"  href="tourism.html">Tourism</a></li>
+<li class="dropdown">
+    <a href="#" style="overflow:visible" class="dropbtn">About</a>
+    <div class="dropdown-content">
+       <a href="history.html">History</a>
+      <a href="location.html">Location and Area</a>
+      <a href="eco.html">Economy and Infrastructures</a> </div>
+  </li>
+<li ><a href="hom.html"> <img src="icon/ic_home_white_24dp_1x.png"   width="25px" /></a></li>
+</ul>
+
+
+<h1 align="center" >Chamunda Mata Mandir</h1>
+<div class="w3-content" style="margin-left:280px;max-width:800px;position:relative;">
+<img class="mySlides" src="IMG_20150215_161110.jpg" style="width:100%;height:400px;">
+<img class="mySlides" src="harni-mahadev-bhilwara-temples.jpg" style="width:100%;height:400px;">
+
+<a class="w3-btn-floating" style="position:absolute;top:38%;left:0;font-size:60px;" onclick="plusDivs(-1)">❮</a>
+<a class="w3-btn-floating" style="position:absolute;top:38%;right:0;font-size:60px;" onclick="plusDivs(1)">❯</a>
+</div>
+
+<p align="center" style="margin-left:100px;margin-right:100px;font-size:12pt"><b>Chamunda Mata Mandir </b>
+ is also situated on the hill of Harni Mahadev from where one can have a view of whole city. This nice place is far 5 km from Bhilwara.</p>
+<div class="footer">
+<div class="leftfoo"> <p style="font-size:18px">Contact Us :</p>
+<p style="font-size:12px">Ask us anything! We’re here to answer any questions you have. </p>
+<p style="font-size:12px"> Email: shalinijoshi1996@gmail.com</p>
+</div>
+<div class="rightfoo">
+  <p style="font-size:18px;">Follow Us :   </p>
+<a href="https://www.facebook.com" target="_blank"> <img   src="icon/facebook-box.png" /></a>
+<a href="https://www.twitter.com" target="_blank"> <img  src="icon/instagram.png" /></a>
+<a href="https://www.instagram.com" target="_blank"> <img  src="icon/twitter.png" /></a>
+</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</div>
+</body>
+</html>

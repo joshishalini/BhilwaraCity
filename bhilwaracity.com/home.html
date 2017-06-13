@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(25.3463,74.6364),
+    zoom:10,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bhilwaracity.com</title>
+<style>
+
+.rightfoo{
+		right:1000px;
+		float:right;
+		height:auto;
+		width:200px;
+		padding:0;
+		line-height:5pt;
+		}
+		
+	.leftfoo{
+		margin-left:5px;
+		line-height:5pt;
+		letter-spacing:normal;
+		float:left;
+		height:auto;
+		width:500px;
+		}
+	
+a{
+	text-decoration:none;
+	color:#333;
+	}
+	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #999;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+li a.active {
+    background-color: #399;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color:#666;
+    color: white;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.footer{
+	background-color: #333;
+	color:#FFF;
+	width:99%;
+	height:100px;
+	position:absolute;
+	bottom:-233px;
+	font-size:24px;
+	left: 3px;
+		}
+		.reach{
+			margin:10px;
+			width:70%;
+			height:250px;
+			
+			left:13%;
+			position:absolute;
+			}
+			
+</style>
+</head>
+<body bgcolor='#E5E5E5' >
+
+<ul>
+<li style="float:left;">
+<h1 style="margin:5px;padding:0%; font-family:'Matura MT Script Capitals'; color:#333;"><a href="home.html">BhilwaraCity.com</a></h1></li>
+  <li ><a  class="active"   href="home.html">Home</a></li>
+   <li class="dropdown">
+    <a href="#" class="dropbtn">About</a>
+    <div class="dropdown-content">
+       <a href="history.html">History</a>
+      <a href="location.html">Location and Area</a>
+      <a href="eco.html">Economy and Infrastructures</a> </div>
+  </li>
+  <li><a  href="tourism.html">Tourism</a></li>
+  <li><a href="directory.html">City Directory</a></li>
+  <li><a href="photo.html">Photo Gallery</a></li>
+  
+</ul>
+
+<div id="googleMap"  style="width:99%;height:380px;"></div>
+</div>
+<div class="reach">
+<a href="reach.html">
+<p align="center" style="padding:50px;font-size:40px; font-family:'Courier New', Courier, monospace; color:#069;"  >How to reach bhilwara?</p></a>
+</div>
+<div class="footer">
+<div class="leftfoo"> <p style="font-size:18px">Contact Us :</p>
+<p style="font-size:18px">Ask us anything! We’re here to answer any questions you have. </p>
+<p style="font-size:18px"> Email: shalinijoshi1996@gmail.com</p>
+</div>
+<div class="rightfoo"><p style="font-size:18px">Follow Us :</p>
+<a href="https://www.facebook.com" target="_blank"> <img  src="icon/facebook-box.png" /></a>
+<a href="https://www.twitter.com" target="_blank"> <img  src="icon/instagram.png" /></a>
+<a href="https://www.instagram.com" target="_blank"> <img  src="icon/twitter.png" /></a>
+</div>
+</div>
+</body>
+</html>

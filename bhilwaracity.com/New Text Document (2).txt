@@ -1,0 +1,87 @@
+ <tr>
+    <th colspan="2" align="center" scope="col">Hospital</th>
+</tr>
+  <tr>
+    <td width="50%">Krishna Hospital</td>
+    <td width="50%">28100</td>
+  </tr>
+  <tr>
+    <td>Mishra Hospital</td>
+    <td>9829047455</td>
+  </tr>
+  <tr>
+    <td>Mehesh Health Care</td>
+    <td>9828089133</td>
+  </tr>
+  <tr>
+    <td>Arihant Hospital</td>
+    <td>253101</td>
+  </tr>
+  <tr>
+    <td>Ramsnehi Hospital</td>
+    <td>238640</td>
+  </tr>
+  <tr>
+    <td>Kalyani Eye Hospital</td>
+    <td>238210</td>
+  </tr>
+  <tr>
+    <td>Medihub Heart Hospital</td>
+    <td>236022</td>
+  </tr>
+  <tr>
+    <td>Shree Nath Advance Phy</td>
+    <td>9414155422</td>
+  </tr>
+  <tr>
+    <td>Mehesh Hospital</td>
+    <td>257388</td>
+  </tr>
+   <tr>
+    <td>Keshav Hospital(Porwal)</td>
+    <td>234317</td>
+  </tr>
+   <tr>
+    <td>Gupta Hospital</td>
+    <td>9829156701</td>
+  </tr>
+   <tr>
+    <td>Ghambheer Hospital</td>
+    <td>222761</td>
+  </tr>
+   <tr>
+    <td>Soni Hospital</td>
+    <td>253022</td>
+  </tr>
+   <tr>
+    <td>City Hospital</td>
+    <td>9414302569</td>
+  </tr>
+   <tr>
+    <td>R.K. Hospital</td>
+    <td>9414115157</td>
+  </tr>
+   <tr>
+    <td>Rathi Hospital</td>
+    <td>222999</td>
+  </tr>
+   <tr>
+    <td>Sharma  Hospital</td>
+    <td>9414022446</td>
+  </tr>
+   <tr>
+    <td>Mevar Orthopadics</td>
+    <td>234742</td>
+  </tr>
+   <tr>
+    <td>Shiddhi Vinayk Hospital</td>
+    <td>231900</td>
+  </tr>
+  <tr>
+    <td>Bhardavaj Hospital</td>
+    <td>9829046833</td>
+  </tr>
+  <tr>
+    <td>Shree Dental Care</td>
+    <td>233140</td>
+  </tr>
